@@ -55,6 +55,15 @@
         left: 500px;
         transform: rotate(360deg)
     }
+
+    65% {
+        top: 500px;
+        left: 800px;
+    }
+    75% {
+        top: 500px;
+        left: 500px;
+    }
     90% {
         top: 300px;
         left: 100px;

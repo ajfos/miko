@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   position: relative;
+  overflow: hidden;
+  height: 100vh;
 }
 
 .App-logo {
@@ -47,30 +49,30 @@
         transform: rotate(0deg)
     }
     10% {
-        top: 300px;
-        left: 100px;
+        top: 10%;
+        left: 10%;
     }
     50% {
-        top: 500px;
-        left: 500px;
+        top: 70%;
+        left: 70%;
         transform: rotate(360deg)
     }
 
     65% {
-        top: 500px;
-        left: 800px;
+        top: 70%;
+        left: 90%;
     }
     75% {
-        top: 500px;
-        left: 500px;
+        top: 70%;
+        left: 50%;
     }
-    90% {
-        top: 300px;
-        left: 100px;
+    80% {
+        top: 60%;
+        left: 0;
     }
     100% {
         top: -300px;
-        left: 0;
+        left: 500px;
         transform: rotate(0deg)
     }
 }

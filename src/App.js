@@ -13,6 +13,9 @@ class App extends Component {
         <p className="App-intro">
           He just really wants to investigate.
         </p>
+        <div className="AppMain">
+
+        </div>
       </div>
     );
   }
